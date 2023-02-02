@@ -1,18 +1,6 @@
-## 0x05. N Queens
+## README for 0x0C-nqueens ##
+### A directory within the holbertonschool-interview repo ###
 
-![Chess grandmaster-Judit Polgar](https://www.crestbook.com/files/Judit-photo1_602x433.jpg)
-
-The N queens puzzle is the challenge of placing N non-attacking queens on an N×N chessboard. Write a program that solves the N queens problem.
-
-* Usage: `nqueens N`
-	* If the user called the program with the wrong number of arguments, print `Usage: nqueens N,` followed by a new line, and exit with the status `1`
-* where N must be an integer greater or equal to `4`
-	* If N is not an integer, print `N must be a number,` followed by a new line, and exit with the status `1`
-	* If N is smaller than `4,` print `N must be at least 4,` followed by a new line, and exit with the status `1`
-* The program should print every possible solution to the problem
-	* One solution per line
-	* Format: see example
-	* You don’t have to print the solutions in a specific order
-* You are only allowed to import the `sys` module
-
-**Read:** [Queen](https://en.wikipedia.org/wiki/Queen_%28chess%29), [Backtracking](https://en.wikipedia.org/wiki/Backtracking)
+| File Name | Description |
+| --------- | ----------- |
+| 0-nqueens.py | **Task: 0. N queens** <br> A Python function, with the usage `nqueens N` in which `N` must be an integer greater or equal to `4`. If the user called the program with the wrong number of arguments `Usage: nqueens N` is printed and the program is exited with the status `1`. If `N` is not an integer then `N must be a number` is printed but if `N` is less than `4` then `N must be at least 4` is printed and in both cases the program exits with the status `1`. This program prints every possible solution to the problem with one solutuion per line and without any particular order. Only the `sys` module was allowed to be imported. |
